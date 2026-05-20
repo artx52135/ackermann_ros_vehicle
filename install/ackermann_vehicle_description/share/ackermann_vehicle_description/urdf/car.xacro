@@ -1,8 +1,8 @@
-<?xml version="1.0"?>
 <robot name="car" xmlns:xacro="http://www.ros.org/wiki/xacro">
   
+  <xacro:property name="pi" value="3.1415926535897931" />
   <xacro:property name="base_width" value="0.4" />
-  <xacro:property name="base_length" value="${base_width * 3.4}" />
+  <xacro:property name="base_length" value="1.36" />
   <xacro:property name="base_height" value="0.6" />
 
   <xacro:property name="wheel_radius" value="0.20" />
@@ -66,14 +66,14 @@
     <collision>
       <origin xyz="0 0 0.27" rpy="0 0 0"/>
       <geometry>
-        <box size="${base_length + 0.2} ${base_width} ${base_height - 0.2}"/>
+        <box size="1.56 0.4 0.4"/>
       </geometry>
     </collision>
 
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="file:///home/artem/vechicle/install/ackermann_vehicle_description/share/ackermann_vehicle_description/meshes/car.dae"/>
+        <mesh filename="package://ackermann_vehicle_description/meshes/car.dae"/>
       </geometry>
     </visual>
 
@@ -83,7 +83,7 @@
   <xacro:macro name="steering_knuckle" params="suffix sidefr sidelr">
     <xacro:if value="${sidefr == 1}">
       <joint name="${suffix}_steering_knuckle_joint" type="revolute">
-        <origin xyz="${base_length / 100 * 35 * sidefr} ${0.4 * sidelr} -0.3" rpy="0 0 ${pi/2}"/>
+        <origin xyz="${0.476 * sidefr} ${0.2 * sidelr} -0.3" rpy="0 0 ${pi/2}"/>
         <parent link="chassis"/>
         <child link="${suffix}_steering_knuckle_link"/>
         <axis xyz="0 0 1" />
@@ -92,7 +92,7 @@
     </xacro:if>
     <xacro:unless value="${sidefr == 1}">
       <joint name="${suffix}_steering_knuckle_joint" type="fixed">
-        <origin xyz="${base_length / 100 * 35 * sidefr} ${0.4 * sidelr} -0.3" rpy="0 0 ${pi/2}"/>
+        <origin xyz="${0.476 * sidefr} ${0.2 * sidelr} -0.3" rpy="0 0 ${pi/2}"/>
         <parent link="chassis"/>
         <child link="${suffix}_steering_knuckle_link"/>
       </joint>
@@ -147,7 +147,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 ${pi/2} 0"/>
         <geometry>
-          <mesh filename="file:///home/artem/vechicle/install/ackermann_vehicle_description/share/ackermann_vehicle_description/meshes/wheel.dae"/>
+          <mesh filename="package://ackermann_vehicle_description/meshes/wheel.dae"/>
         </geometry>
       </visual>
       <xacro:cylinder_inertial radius="${wheel_radius}" height="${wheel_length}" mass="2.0"/>
@@ -160,7 +160,6 @@
   <xacro:wheel suffix="rear_right" sidefr="-1" sidelr="-1" />
 
   <joint name="hokuyo_joint" type="fixed">
-    <axis xyz="0 0 0" />
     <origin xyz="0.574 0 0.72" rpy="0 0 0"/>
     <parent link="base_link"/>
     <child link="hokuyo"/>
@@ -177,7 +176,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="file:///home/artem/vechicle/install/ackermann_vehicle_description/share/ackermann_vehicle_description/meshes/hokuyo.dae"/>
+        <mesh filename="package://ackermann_vehicle_description/meshes/hokuyo.dae"/>
       </geometry>
     </visual>
 

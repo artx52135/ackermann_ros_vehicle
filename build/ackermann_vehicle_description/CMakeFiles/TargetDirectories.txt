@@ -1,0 +1,9 @@
+/home/artem/vechicle/src/ros_gazebo_car/build/ackermann_vehicle_description/CMakeFiles/uninstall.dir
+/home/artem/vechicle/src/ros_gazebo_car/build/ackermann_vehicle_description/CMakeFiles/ackermann_vehicle_description_uninstall.dir
+/home/artem/vechicle/src/ros_gazebo_car/build/ackermann_vehicle_description/CMakeFiles/test.dir
+/home/artem/vechicle/src/ros_gazebo_car/build/ackermann_vehicle_description/CMakeFiles/edit_cache.dir
+/home/artem/vechicle/src/ros_gazebo_car/build/ackermann_vehicle_description/CMakeFiles/rebuild_cache.dir
+/home/artem/vechicle/src/ros_gazebo_car/build/ackermann_vehicle_description/CMakeFiles/list_install_components.dir
+/home/artem/vechicle/src/ros_gazebo_car/build/ackermann_vehicle_description/CMakeFiles/install.dir
+/home/artem/vechicle/src/ros_gazebo_car/build/ackermann_vehicle_description/CMakeFiles/install/local.dir
+/home/artem/vechicle/src/ros_gazebo_car/build/ackermann_vehicle_description/CMakeFiles/install/strip.dir
