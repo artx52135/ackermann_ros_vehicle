@@ -21,6 +21,25 @@
   <gazebo reference="chassis">
     <material>CarMaterial</material>
   </gazebo>
+  <material name="Black">
+    <color rgba="0.0 0.0 0.0 1.0"/>
+  </material>
+
+  <gazebo reference="front_left_wheel_link">
+  <material>Gazebo/Black</material>
+</gazebo>
+
+<gazebo reference="front_right_wheel_link">
+  <material>Gazebo/Black</material>
+</gazebo>
+
+<gazebo reference="rear_left_wheel_link">
+  <material>Gazebo/Black</material>
+</gazebo>
+
+<gazebo reference="rear_right_wheel_link">
+  <material>Gazebo/Black</material>
+</gazebo>
   
   <xacro:macro name="cylinder_inertial" params="radius height mass">
     <inertial>
