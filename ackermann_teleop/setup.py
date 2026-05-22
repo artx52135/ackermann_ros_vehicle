@@ -6,7 +6,7 @@ package_name = 'ackermann_teleop'
 
 setup(
     name=package_name,
-    version='0.0.0',
+    version='0.0.1',
     packages=[package_name],
     data_files=[
         ('share/ament_index/resource_index/packages',
@@ -16,13 +16,14 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='your_name',
-    maintainer_email='your_email@example.com',
-    description='Keyboard teleoperation for Ackermann vehicle',
+    maintainer='artem',
+    maintainer_email='artem@localhost',
+    description='Ackermann car teleoperation package',
     license='Apache License 2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'ackermann_steering = ackermann_teleop.ackermann_steering:main',
             'keyboard_teleop = ackermann_teleop.keyboard_teleop:main',
         ],
     },
