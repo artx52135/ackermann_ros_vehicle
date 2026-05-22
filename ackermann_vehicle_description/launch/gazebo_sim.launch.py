@@ -44,8 +44,17 @@ def generate_launch_description():
         parameters=[robot_description, {'use_sim_time': True}]
     )
     
+    # Gazebo контроллеры
+    spawn_controllers = Node(
+        package='controller_manager',
+        executable='spawner',
+        arguments=['diff_drive_controller'],
+        output='screen'
+    )
+    
     return LaunchDescription([
         gazebo,
         robot_state_publisher,
         spawn_entity,
+        spawn_controllers,
     ])
