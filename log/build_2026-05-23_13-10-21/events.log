@@ -1,0 +1,204 @@
+[0.000000] (-) TimerEvent: {}
+[0.008550] (ackermann_teleop) JobQueued: {'identifier': 'ackermann_teleop', 'dependencies': OrderedDict()}
+[0.008831] (ackermann_vehicle_description) JobQueued: {'identifier': 'ackermann_vehicle_description', 'dependencies': OrderedDict()}
+[0.008982] (ackermann_teleop) JobStarted: {'identifier': 'ackermann_teleop'}
+[0.098927] (ackermann_vehicle_description) JobStarted: {'identifier': 'ackermann_vehicle_description'}
+[0.099372] (-) TimerEvent: {}
+[0.200813] (-) TimerEvent: {}
+[0.301768] (-) TimerEvent: {}
+[0.402492] (-) TimerEvent: {}
+[0.503786] (-) TimerEvent: {}
+[0.605806] (-) TimerEvent: {}
+[0.710827] (-) TimerEvent: {}
+[0.812661] (-) TimerEvent: {}
+[0.925627] (-) TimerEvent: {}
+[1.031366] (-) TimerEvent: {}
+[1.137026] (-) TimerEvent: {}
+[1.243411] (-) TimerEvent: {}
+[1.348886] (-) TimerEvent: {}
+[1.453816] (-) TimerEvent: {}
+[1.556118] (-) TimerEvent: {}
+[1.658644] (-) TimerEvent: {}
+[1.766526] (-) TimerEvent: {}
+[1.870674] (-) TimerEvent: {}
+[1.975424] (-) TimerEvent: {}
+[2.077050] (-) TimerEvent: {}
+[2.183422] (-) TimerEvent: {}
+[2.284195] (-) TimerEvent: {}
+[2.387972] (-) TimerEvent: {}
+[2.489021] (-) TimerEvent: {}
+[2.597869] (-) TimerEvent: {}
+[2.720386] (-) TimerEvent: {}
+[2.824021] (-) TimerEvent: {}
+[2.928949] (-) TimerEvent: {}
+[3.035631] (-) TimerEvent: {}
+[3.136599] (-) TimerEvent: {}
+[3.238795] (-) TimerEvent: {}
+[3.347923] (-) TimerEvent: {}
+[3.449082] (-) TimerEvent: {}
+[3.510755] (ackermann_vehicle_description) JobProgress: {'identifier': 'ackermann_vehicle_description', 'progress': 'cmake'}
+[3.523811] (ackermann_vehicle_description) JobProgress: {'identifier': 'ackermann_vehicle_description', 'progress': 'build'}
+[3.525832] (ackermann_vehicle_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/artem/vechicle/src/ros_gazebo_car/build/ackermann_vehicle_description', '--', '-j8', '-l8'], 'cwd': '/home/artem/vechicle/src/ros_gazebo_car/build/ackermann_vehicle_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ru:en_US:en'), ('USER', 'artem'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/artem'), ('OLDPWD', '/home/artem/vechicle'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('ALL', 'en_US.UTF-8'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('SYSTEMD_EXEC_PID', '27323'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/artem/vechicle/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'artem'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'artem'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/artem/vechicle/install/ackermann_vehicle_description/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/artem/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/artem-Aspire-A317-52:@/tmp/.ICE-unix/1398,unix/artem-Aspire-A317-52:/tmp/.ICE-unix/1398'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e03e2b30_fe2a_4e85_a1a4_f1910268c3de'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ru_RU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.214'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/artem/vechicle/install/ackermann_vehicle_description:/home/artem/vechicle/install/ackermann_teleop:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/artem/vechicle/src/ros_gazebo_car/build/ackermann_vehicle_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/artem/vechicle/install/ackermann_teleop/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/artem/vechicle/install/ackermann_vehicle_description:/home/artem/vechicle/install/ackermann_teleop:/opt/ros/humble')]), 'shell': False}
+[3.552088] (-) TimerEvent: {}
+[3.654757] (-) TimerEvent: {}
+[3.761020] (-) TimerEvent: {}
+[3.835079] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.861587] (-) TimerEvent: {}
+[3.963080] (-) TimerEvent: {}
+[4.067905] (-) TimerEvent: {}
+[4.170626] (-) TimerEvent: {}
+[4.273231] (-) TimerEvent: {}
+[4.381280] (-) TimerEvent: {}
+[4.482179] (-) TimerEvent: {}
+[4.584109] (-) TimerEvent: {}
+[4.688697] (-) TimerEvent: {}
+[4.789811] (-) TimerEvent: {}
+[4.893246] (-) TimerEvent: {}
+[4.994434] (-) TimerEvent: {}
+[5.103173] (-) TimerEvent: {}
+[5.209259] (-) TimerEvent: {}
+[5.311028] (-) TimerEvent: {}
+[5.379264] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)\n'}
+[5.412632] (-) TimerEvent: {}
+[5.515213] (-) TimerEvent: {}
+[5.632961] (-) TimerEvent: {}
+[5.744404] (-) TimerEvent: {}
+[5.847276] (-) TimerEvent: {}
+[5.957099] (-) TimerEvent: {}
+[6.062777] (-) TimerEvent: {}
+[6.163814] (-) TimerEvent: {}
+[6.258959] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.267251] (-) TimerEvent: {}
+[6.303648] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Generating done\n'}
+[6.316054] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Build files have been written to: /home/artem/vechicle/src/ros_gazebo_car/build/ackermann_vehicle_description\n'}
+[6.367581] (-) TimerEvent: {}
+[6.471963] (-) TimerEvent: {}
+[6.520681] (ackermann_vehicle_description) CommandEnded: {'returncode': 0}
+[6.572558] (-) TimerEvent: {}
+[6.676381] (-) TimerEvent: {}
+[6.772509] (ackermann_vehicle_description) JobProgress: {'identifier': 'ackermann_vehicle_description', 'progress': 'install'}
+[6.777953] (-) TimerEvent: {}
+[6.812411] (ackermann_vehicle_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/artem/vechicle/src/ros_gazebo_car/build/ackermann_vehicle_description'], 'cwd': '/home/artem/vechicle/src/ros_gazebo_car/build/ackermann_vehicle_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ru:en_US:en'), ('USER', 'artem'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/artem'), ('OLDPWD', '/home/artem/vechicle'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('ALL', 'en_US.UTF-8'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('SYSTEMD_EXEC_PID', '27323'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/artem/vechicle/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'artem'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'artem'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/artem/vechicle/install/ackermann_vehicle_description/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/artem/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/artem-Aspire-A317-52:@/tmp/.ICE-unix/1398,unix/artem-Aspire-A317-52:/tmp/.ICE-unix/1398'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e03e2b30_fe2a_4e85_a1a4_f1910268c3de'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ru_RU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.214'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/artem/vechicle/install/ackermann_vehicle_description:/home/artem/vechicle/install/ackermann_teleop:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/artem/vechicle/src/ros_gazebo_car/build/ackermann_vehicle_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/artem/vechicle/install/ackermann_teleop/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/artem/vechicle/install/ackermann_vehicle_description:/home/artem/vechicle/install/ackermann_teleop:/opt/ros/humble')]), 'shell': False}
+[6.883755] (-) TimerEvent: {}
+[6.885659] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.893491] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/meshes\n'}
+[6.901065] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/meshes/map.dae\n'}
+[6.901592] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/meshes/Material_Base_Color_002.png\n'}
+[6.902649] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/meshes/wheel.dae\n'}
+[6.915828] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/meshes/hokuyo.dae\n'}
+[6.916395] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/meshes/wheel.png\n'}
+[6.920420] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/meshes/car.png\n'}
+[6.930386] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/meshes/Material_001_Base_Color.png\n'}
+[6.936061] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/meshes/Material.002 Base Color.png\n'}
+[6.949852] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/meshes/car.dae\n'}
+[6.950492] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/urdf\n'}
+[6.953238] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/urdf/exp.xml\n'}
+[6.956098] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/urdf/gazebo_hokuyo.xml\n'}
+[6.956961] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/urdf/med.xml\n'}
+[6.962695] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/urdf/map.xacro\n'}
+[6.973132] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/urdf/car.xacro\n'}
+[6.977969] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/urdf/cheap.xml\n'}
+[6.983900] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/urdf/test_robot.urdf\n'}
+[6.984383] (-) TimerEvent: {}
+[6.984863] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/materials\n'}
+[6.985277] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/materials/textures\n'}
+[6.985678] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/materials/textures/Material_Base_Color_002.png\n'}
+[6.992513] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/materials/textures/wheel.png\n'}
+[7.009857] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/materials/textures/car.png\n'}
+[7.044607] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/materials/textures/Material_001_Base_Color.png\n'}
+[7.053551] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/materials/textures/Material.002 Base Color.png\n'}
+[7.057917] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/materials/scripts\n'}
+[7.058496] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/materials/scripts/wheel.material\n'}
+[7.067394] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/materials/scripts/car.material\n'}
+[7.076764] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/launch\n'}
+[7.078751] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/launch/display.launch.py\n'}
+[7.079224] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/launch/gazebo.launch.py\n'}
+[7.085095] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/launch/rsp.launch.py\n'}
+[7.085550] (-) TimerEvent: {}
+[7.086955] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/launch/gazebo_sim.launch.py\n'}
+[7.087385] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/launch/launch_sim.launch.py\n'}
+[7.087690] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/launch/test_robot.launch.py\n'}
+[7.087939] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ament_index/resource_index/package_run_dependencies/ackermann_vehicle_description\n'}
+[7.088194] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ament_index/resource_index/parent_prefix_path/ackermann_vehicle_description\n'}
+[7.094000] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/environment/ament_prefix_path.sh\n'}
+[7.094414] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/environment/ament_prefix_path.dsv\n'}
+[7.094700] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/environment/path.sh\n'}
+[7.096018] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/environment/path.dsv\n'}
+[7.100652] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/local_setup.bash\n'}
+[7.101045] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/local_setup.sh\n'}
+[7.101333] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/local_setup.zsh\n'}
+[7.101602] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/local_setup.dsv\n'}
+[7.103488] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/package.dsv\n'}
+[7.104060] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ament_index/resource_index/packages/ackermann_vehicle_description\n'}
+[7.111050] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/cmake/ackermann_vehicle_descriptionConfig.cmake\n'}
+[7.111608] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/cmake/ackermann_vehicle_descriptionConfig-version.cmake\n'}
+[7.112470] (ackermann_vehicle_description) StdoutLine: {'line': b'-- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/package.xml\n'}
+[7.122974] (ackermann_vehicle_description) CommandEnded: {'returncode': 0}
+[7.194873] (-) TimerEvent: {}
+[7.297350] (-) TimerEvent: {}
+[7.398052] (-) TimerEvent: {}
+[7.465082] (ackermann_vehicle_description) JobEnded: {'identifier': 'ackermann_vehicle_description', 'rc': 0}
+[7.500594] (-) TimerEvent: {}
+[7.601205] (-) TimerEvent: {}
+[7.702009] (-) TimerEvent: {}
+[7.803769] (-) TimerEvent: {}
+[7.905684] (-) TimerEvent: {}
+[8.026625] (-) TimerEvent: {}
+[8.093746] (ackermann_teleop) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/ackermann_teleop', 'build', '--build-base', '/home/artem/vechicle/src/ros_gazebo_car/build/ackermann_teleop/build', 'install', '--record', '/home/artem/vechicle/src/ros_gazebo_car/build/ackermann_teleop/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/artem/vechicle/src/ros_gazebo_car/ackermann_teleop', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ru:en_US:en', 'USER': 'artem', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/artem', 'OLDPWD': '/home/artem/vechicle', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'ALL': 'en_US.UTF-8', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ru_RU.UTF-8', 'SYSTEMD_EXEC_PID': '27323', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/artem/vechicle/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'artem', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'artem', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/home/artem/vechicle/install/ackermann_vehicle_description/share', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/artem/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/artem-Aspire-A317-52:@/tmp/.ICE-unix/1398,unix/artem-Aspire-A317-52:/tmp/.ICE-unix/1398', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ru_RU.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e03e2b30_fe2a_4e85_a1a4_f1910268c3de', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ru_RU.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.214', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/artem/vechicle/install/ackermann_vehicle_description:/home/artem/vechicle/install/ackermann_teleop:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/artem/vechicle/src/ros_gazebo_car/build/ackermann_teleop', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/artem/vechicle/src/ros_gazebo_car/build/ackermann_teleop/prefix_override:/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_teleop/lib/python3.10/site-packages:/home/artem/vechicle/install/ackermann_teleop/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/artem/vechicle/install/ackermann_vehicle_description'}, 'shell': False}
+[8.128673] (-) TimerEvent: {}
+[8.229622] (-) TimerEvent: {}
+[8.336060] (-) TimerEvent: {}
+[8.437587] (-) TimerEvent: {}
+[8.543136] (-) TimerEvent: {}
+[8.647374] (-) TimerEvent: {}
+[8.749273] (-) TimerEvent: {}
+[8.862899] (-) TimerEvent: {}
+[8.963647] (-) TimerEvent: {}
+[9.067907] (-) TimerEvent: {}
+[9.169299] (-) TimerEvent: {}
+[9.270021] (-) TimerEvent: {}
+[9.376648] (-) TimerEvent: {}
+[9.477506] (-) TimerEvent: {}
+[9.580622] (-) TimerEvent: {}
+[9.681434] (-) TimerEvent: {}
+[9.796177] (-) TimerEvent: {}
+[9.901541] (-) TimerEvent: {}
+[10.003108] (-) TimerEvent: {}
+[10.108242] (-) TimerEvent: {}
+[10.213318] (-) TimerEvent: {}
+[10.317050] (-) TimerEvent: {}
+[10.422895] (-) TimerEvent: {}
+[10.527813] (-) TimerEvent: {}
+[10.634439] (-) TimerEvent: {}
+[10.739754] (-) TimerEvent: {}
+[10.844618] (-) TimerEvent: {}
+[10.946594] (-) TimerEvent: {}
+[11.047236] (-) TimerEvent: {}
+[11.147990] (-) TimerEvent: {}
+[11.231790] (ackermann_teleop) StdoutLine: {'line': b'running egg_info\n'}
+[11.239635] (ackermann_teleop) StdoutLine: {'line': b'writing ../build/ackermann_teleop/ackermann_teleop.egg-info/PKG-INFO\n'}
+[11.240093] (ackermann_teleop) StdoutLine: {'line': b'writing dependency_links to ../build/ackermann_teleop/ackermann_teleop.egg-info/dependency_links.txt\n'}
+[11.240373] (ackermann_teleop) StdoutLine: {'line': b'writing entry points to ../build/ackermann_teleop/ackermann_teleop.egg-info/entry_points.txt\n'}
+[11.240653] (ackermann_teleop) StdoutLine: {'line': b'writing requirements to ../build/ackermann_teleop/ackermann_teleop.egg-info/requires.txt\n'}
+[11.240898] (ackermann_teleop) StdoutLine: {'line': b'writing top-level names to ../build/ackermann_teleop/ackermann_teleop.egg-info/top_level.txt\n'}
+[11.252251] (ackermann_teleop) StdoutLine: {'line': b"reading manifest file '../build/ackermann_teleop/ackermann_teleop.egg-info/SOURCES.txt'\n"}
+[11.269184] (-) TimerEvent: {}
+[11.269693] (ackermann_teleop) StdoutLine: {'line': b"writing manifest file '../build/ackermann_teleop/ackermann_teleop.egg-info/SOURCES.txt'\n"}
+[11.270074] (ackermann_teleop) StdoutLine: {'line': b'running build\n'}
+[11.270363] (ackermann_teleop) StdoutLine: {'line': b'running build_py\n'}
+[11.270830] (ackermann_teleop) StdoutLine: {'line': b'running install\n'}
+[11.271174] (ackermann_teleop) StdoutLine: {'line': b'running install_lib\n'}
+[11.271479] (ackermann_teleop) StdoutLine: {'line': b'running install_data\n'}
+[11.271768] (ackermann_teleop) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.272024] (ackermann_teleop) StdoutLine: {'line': b"removing '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_teleop/lib/python3.10/site-packages/ackermann_teleop-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[11.280854] (ackermann_teleop) StdoutLine: {'line': b'Copying ../build/ackermann_teleop/ackermann_teleop.egg-info to /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_teleop/lib/python3.10/site-packages/ackermann_teleop-0.0.1-py3.10.egg-info\n'}
+[11.281401] (ackermann_teleop) StdoutLine: {'line': b'running install_scripts\n'}
+[11.369602] (-) TimerEvent: {}
+[11.394755] (ackermann_teleop) StdoutLine: {'line': b'Installing ackermann_steering script to /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_teleop/lib/ackermann_teleop\n'}
+[11.401578] (ackermann_teleop) StdoutLine: {'line': b'Installing keyboard_teleop script to /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_teleop/lib/ackermann_teleop\n'}
+[11.402225] (ackermann_teleop) StdoutLine: {'line': b"writing list of installed files to '/home/artem/vechicle/src/ros_gazebo_car/build/ackermann_teleop/install.log'\n"}
+[11.472894] (-) TimerEvent: {}
+[11.575042] (-) TimerEvent: {}
+[11.590963] (ackermann_teleop) CommandEnded: {'returncode': 0}
+[11.672223] (ackermann_teleop) JobEnded: {'identifier': 'ackermann_teleop', 'rc': 0}
+[11.673593] (-) EventReactorShutdown: {}

@@ -168,14 +168,14 @@
   <xacro:wheel suffix="rear_right" sidefr="-1" sidelr="-1" />
 
   <!-- Hokuyo Lidar -->
-  <joint name="hokuyo_joint" type="fixed">
+  <joint name="lidar_joint" type="fixed">
     <axis xyz="0 0 0" />
     <origin xyz="0.574 0 0.7" rpy="0 0 0"/>
     <parent link="base_link"/>
-    <child link="hokuyo"/>
+    <child link="lidar_link"/>
   </joint>
 
-  <link name="hokuyo">
+  <link name="lidar_link">
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
@@ -198,7 +198,7 @@
   </link>
 
   <!-- ============ GAZEBO ЛАЗЕРНЫЙ СКАНЕР ДЛЯ HOKUYO ============ -->
-  <gazebo reference="hokuyo">
+  <gazebo reference="lidar_link">
     <sensor name="laser" type="ray">
       <pose>0 0 0 0 0 0</pose>
       <visualize>true</visualize>
@@ -224,7 +224,7 @@
           <argument>/scan:=scan</argument>
         </ros>
         <output_type>sensor_msgs/LaserScan</output_type>
-        <frame_name>hokuyo</frame_name>
+        <frame_name>lidar_link</frame_name>
       </plugin>
     </sensor>
   </gazebo>

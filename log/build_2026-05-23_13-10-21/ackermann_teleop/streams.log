@@ -1,0 +1,22 @@
+[8.109s] Invoking command in '/home/artem/vechicle/src/ros_gazebo_car/ackermann_teleop': PYTHONPATH=/home/artem/vechicle/src/ros_gazebo_car/build/ackermann_teleop/prefix_override:/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/ackermann_teleop build --build-base /home/artem/vechicle/src/ros_gazebo_car/build/ackermann_teleop/build install --record /home/artem/vechicle/src/ros_gazebo_car/build/ackermann_teleop/install.log --single-version-externally-managed install_data
+[11.223s] running egg_info
+[11.231s] writing ../build/ackermann_teleop/ackermann_teleop.egg-info/PKG-INFO
+[11.231s] writing dependency_links to ../build/ackermann_teleop/ackermann_teleop.egg-info/dependency_links.txt
+[11.232s] writing entry points to ../build/ackermann_teleop/ackermann_teleop.egg-info/entry_points.txt
+[11.232s] writing requirements to ../build/ackermann_teleop/ackermann_teleop.egg-info/requires.txt
+[11.232s] writing top-level names to ../build/ackermann_teleop/ackermann_teleop.egg-info/top_level.txt
+[11.260s] reading manifest file '../build/ackermann_teleop/ackermann_teleop.egg-info/SOURCES.txt'
+[11.261s] writing manifest file '../build/ackermann_teleop/ackermann_teleop.egg-info/SOURCES.txt'
+[11.261s] running build
+[11.262s] running build_py
+[11.262s] running install
+[11.262s] running install_lib
+[11.263s] running install_data
+[11.263s] running install_egg_info
+[11.263s] removing '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_teleop/lib/python3.10/site-packages/ackermann_teleop-0.0.1-py3.10.egg-info' (and everything under it)
+[11.272s] Copying ../build/ackermann_teleop/ackermann_teleop.egg-info to /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_teleop/lib/python3.10/site-packages/ackermann_teleop-0.0.1-py3.10.egg-info
+[11.273s] running install_scripts
+[11.388s] Installing ackermann_steering script to /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_teleop/lib/ackermann_teleop
+[11.393s] Installing keyboard_teleop script to /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_teleop/lib/ackermann_teleop
+[11.393s] writing list of installed files to '/home/artem/vechicle/src/ros_gazebo_car/build/ackermann_teleop/install.log'
+[11.592s] Invoked command in '/home/artem/vechicle/src/ros_gazebo_car/ackermann_teleop' returned '0': PYTHONPATH=/home/artem/vechicle/src/ros_gazebo_car/build/ackermann_teleop/prefix_override:/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/ackermann_teleop build --build-base /home/artem/vechicle/src/ros_gazebo_car/build/ackermann_teleop/build install --record /home/artem/vechicle/src/ros_gazebo_car/build/ackermann_teleop/install.log --single-version-externally-managed install_data

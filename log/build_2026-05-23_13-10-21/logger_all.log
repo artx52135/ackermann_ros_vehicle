@@ -1,0 +1,175 @@
+[1.115s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.119s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x72b1fff33010>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x72b2000777c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x72b2000777c0>>, mixin_verb=('build',))
+[3.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.581s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.582s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.583s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.584s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.584s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.585s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/artem/vechicle/src/ros_gazebo_car'
+[3.585s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.588s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.588s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.744s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.746s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.747s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.747s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.749s] Level 1:colcon.colcon_core.package_identification:_identify(ackermann_teleop) by extensions ['ignore', 'ignore_ament_install']
+[3.751s] Level 1:colcon.colcon_core.package_identification:_identify(ackermann_teleop) by extension 'ignore'
+[3.753s] Level 1:colcon.colcon_core.package_identification:_identify(ackermann_teleop) by extension 'ignore_ament_install'
+[3.754s] Level 1:colcon.colcon_core.package_identification:_identify(ackermann_teleop) by extensions ['colcon_pkg']
+[3.755s] Level 1:colcon.colcon_core.package_identification:_identify(ackermann_teleop) by extension 'colcon_pkg'
+[3.755s] Level 1:colcon.colcon_core.package_identification:_identify(ackermann_teleop) by extensions ['colcon_meta']
+[3.755s] Level 1:colcon.colcon_core.package_identification:_identify(ackermann_teleop) by extension 'colcon_meta'
+[3.756s] Level 1:colcon.colcon_core.package_identification:_identify(ackermann_teleop) by extensions ['ros']
+[3.756s] Level 1:colcon.colcon_core.package_identification:_identify(ackermann_teleop) by extension 'ros'
+[3.771s] DEBUG:colcon.colcon_core.package_identification:Package 'ackermann_teleop' with type 'ros.ament_python' and name 'ackermann_teleop'
+[3.772s] Level 1:colcon.colcon_core.package_identification:_identify(ackermann_vehicle_description) by extensions ['ignore', 'ignore_ament_install']
+[3.773s] Level 1:colcon.colcon_core.package_identification:_identify(ackermann_vehicle_description) by extension 'ignore'
+[3.774s] Level 1:colcon.colcon_core.package_identification:_identify(ackermann_vehicle_description) by extension 'ignore_ament_install'
+[3.776s] Level 1:colcon.colcon_core.package_identification:_identify(ackermann_vehicle_description) by extensions ['colcon_pkg']
+[3.780s] Level 1:colcon.colcon_core.package_identification:_identify(ackermann_vehicle_description) by extension 'colcon_pkg'
+[3.781s] Level 1:colcon.colcon_core.package_identification:_identify(ackermann_vehicle_description) by extensions ['colcon_meta']
+[3.782s] Level 1:colcon.colcon_core.package_identification:_identify(ackermann_vehicle_description) by extension 'colcon_meta'
+[3.784s] Level 1:colcon.colcon_core.package_identification:_identify(ackermann_vehicle_description) by extensions ['ros']
+[3.785s] Level 1:colcon.colcon_core.package_identification:_identify(ackermann_vehicle_description) by extension 'ros'
+[3.788s] DEBUG:colcon.colcon_core.package_identification:Package 'ackermann_vehicle_description' with type 'ros.ament_cmake' and name 'ackermann_vehicle_description'
+[3.789s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.790s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.790s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.791s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.792s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.792s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.793s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.798s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.799s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.799s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.800s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.800s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.800s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.801s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.997s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.997s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.010s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/artem/vechicle/install
+[4.024s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 334 installed packages in /opt/ros/humble
+[4.045s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.489s] Level 5:colcon.colcon_core.verb:set package 'ackermann_teleop' build argument 'cmake_args' from command line to 'None'
+[4.490s] Level 5:colcon.colcon_core.verb:set package 'ackermann_teleop' build argument 'cmake_target' from command line to 'None'
+[4.490s] Level 5:colcon.colcon_core.verb:set package 'ackermann_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.490s] Level 5:colcon.colcon_core.verb:set package 'ackermann_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[4.491s] Level 5:colcon.colcon_core.verb:set package 'ackermann_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[4.491s] Level 5:colcon.colcon_core.verb:set package 'ackermann_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[4.491s] Level 5:colcon.colcon_core.verb:set package 'ackermann_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[4.491s] Level 5:colcon.colcon_core.verb:set package 'ackermann_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[4.491s] Level 5:colcon.colcon_core.verb:set package 'ackermann_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.491s] DEBUG:colcon.colcon_core.verb:Building package 'ackermann_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/artem/vechicle/src/ros_gazebo_car/build/ackermann_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_teleop', 'merge_install': False, 'path': '/home/artem/vechicle/src/ros_gazebo_car/ackermann_teleop', 'symlink_install': False, 'test_result_base': None}
+[4.497s] Level 5:colcon.colcon_core.verb:set package 'ackermann_vehicle_description' build argument 'cmake_args' from command line to 'None'
+[4.498s] Level 5:colcon.colcon_core.verb:set package 'ackermann_vehicle_description' build argument 'cmake_target' from command line to 'None'
+[4.499s] Level 5:colcon.colcon_core.verb:set package 'ackermann_vehicle_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.499s] Level 5:colcon.colcon_core.verb:set package 'ackermann_vehicle_description' build argument 'cmake_clean_cache' from command line to 'False'
+[4.500s] Level 5:colcon.colcon_core.verb:set package 'ackermann_vehicle_description' build argument 'cmake_clean_first' from command line to 'False'
+[4.500s] Level 5:colcon.colcon_core.verb:set package 'ackermann_vehicle_description' build argument 'cmake_force_configure' from command line to 'False'
+[4.502s] Level 5:colcon.colcon_core.verb:set package 'ackermann_vehicle_description' build argument 'ament_cmake_args' from command line to 'None'
+[4.505s] Level 5:colcon.colcon_core.verb:set package 'ackermann_vehicle_description' build argument 'catkin_cmake_args' from command line to 'None'
+[4.506s] Level 5:colcon.colcon_core.verb:set package 'ackermann_vehicle_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.507s] DEBUG:colcon.colcon_core.verb:Building package 'ackermann_vehicle_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/artem/vechicle/src/ros_gazebo_car/build/ackermann_vehicle_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description', 'merge_install': False, 'path': '/home/artem/vechicle/src/ros_gazebo_car/ackermann_vehicle_description', 'symlink_install': False, 'test_result_base': None}
+[4.509s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.523s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.525s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/artem/vechicle/src/ros_gazebo_car/ackermann_teleop' with build type 'ament_python'
+[4.527s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_teleop', 'ament_prefix_path')
+[4.563s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_teleop/share/ackermann_teleop/hook/ament_prefix_path.ps1'
+[4.567s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_teleop/share/ackermann_teleop/hook/ament_prefix_path.dsv'
+[4.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_teleop/share/ackermann_teleop/hook/ament_prefix_path.sh'
+[4.584s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.586s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.616s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/artem/vechicle/src/ros_gazebo_car/ackermann_vehicle_description' with build type 'ament_cmake'
+[4.617s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/artem/vechicle/src/ros_gazebo_car/ackermann_vehicle_description'
+[4.626s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.627s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.997s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/artem/vechicle/src/ros_gazebo_car/ackermann_teleop'
+[7.998s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.999s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/artem/vechicle/src/ros_gazebo_car/build/ackermann_vehicle_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/artem/vechicle/install/ackermann_teleop:/opt/ros/humble /usr/bin/cmake --build /home/artem/vechicle/src/ros_gazebo_car/build/ackermann_vehicle_description -- -j8 -l8
+[11.041s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/artem/vechicle/src/ros_gazebo_car/build/ackermann_vehicle_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/artem/vechicle/install/ackermann_teleop:/opt/ros/humble /usr/bin/cmake --build /home/artem/vechicle/src/ros_gazebo_car/build/ackermann_vehicle_description -- -j8 -l8
+[11.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/artem/vechicle/src/ros_gazebo_car/build/ackermann_vehicle_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/artem/vechicle/install/ackermann_teleop:/opt/ros/humble /usr/bin/cmake --install /home/artem/vechicle/src/ros_gazebo_car/build/ackermann_vehicle_description
+[11.640s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ackermann_vehicle_description)
+[11.643s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/artem/vechicle/src/ros_gazebo_car/build/ackermann_vehicle_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/artem/vechicle/install/ackermann_teleop:/opt/ros/humble /usr/bin/cmake --install /home/artem/vechicle/src/ros_gazebo_car/build/ackermann_vehicle_description
+[11.678s] Level 1:colcon.colcon_core.environment:checking '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description' for CMake module files
+[11.683s] Level 1:colcon.colcon_core.environment:checking '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description' for CMake config files
+[11.684s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_vehicle_description', 'cmake_prefix_path')
+[11.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/hook/cmake_prefix_path.ps1'
+[11.688s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/hook/cmake_prefix_path.dsv'
+[11.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/hook/cmake_prefix_path.sh'
+[11.693s] Level 1:colcon.colcon_core.environment:checking '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/bin'
+[11.693s] Level 1:colcon.colcon_core.environment:checking '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/lib/pkgconfig/ackermann_vehicle_description.pc'
+[11.694s] Level 1:colcon.colcon_core.environment:checking '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/lib/python3.10/site-packages'
+[11.695s] Level 1:colcon.colcon_core.environment:checking '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/bin'
+[11.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/package.ps1'
+[11.700s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/package.dsv'
+[11.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/package.sh'
+[11.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/package.bash'
+[11.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/package.zsh'
+[11.719s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/colcon-core/packages/ackermann_vehicle_description)
+[11.937s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ackermann_vehicle_description)
+[11.948s] Level 1:colcon.colcon_core.environment:checking '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description' for CMake module files
+[11.950s] Level 1:colcon.colcon_core.environment:checking '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description' for CMake config files
+[11.953s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_vehicle_description', 'cmake_prefix_path')
+[11.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/hook/cmake_prefix_path.ps1'
+[11.957s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/hook/cmake_prefix_path.dsv'
+[11.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/hook/cmake_prefix_path.sh'
+[11.962s] Level 1:colcon.colcon_core.environment:checking '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/bin'
+[11.962s] Level 1:colcon.colcon_core.environment:checking '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/lib/pkgconfig/ackermann_vehicle_description.pc'
+[11.964s] Level 1:colcon.colcon_core.environment:checking '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/lib/python3.10/site-packages'
+[11.965s] Level 1:colcon.colcon_core.environment:checking '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/bin'
+[11.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/package.ps1'
+[11.969s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/package.dsv'
+[11.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/package.sh'
+[11.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/package.bash'
+[11.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/package.zsh'
+[11.983s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/colcon-core/packages/ackermann_vehicle_description)
+[12.637s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/artem/vechicle/src/ros_gazebo_car/ackermann_teleop': PYTHONPATH=/home/artem/vechicle/src/ros_gazebo_car/build/ackermann_teleop/prefix_override:/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/ackermann_teleop build --build-base /home/artem/vechicle/src/ros_gazebo_car/build/ackermann_teleop/build install --record /home/artem/vechicle/src/ros_gazebo_car/build/ackermann_teleop/install.log --single-version-externally-managed install_data
+[16.108s] Level 1:colcon.colcon_core.environment:checking '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_teleop' for CMake module files
+[16.118s] Level 1:colcon.colcon_core.environment:checking '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_teleop' for CMake config files
+[16.121s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/artem/vechicle/src/ros_gazebo_car/ackermann_teleop' returned '0': PYTHONPATH=/home/artem/vechicle/src/ros_gazebo_car/build/ackermann_teleop/prefix_override:/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/ackermann_teleop build --build-base /home/artem/vechicle/src/ros_gazebo_car/build/ackermann_teleop/build install --record /home/artem/vechicle/src/ros_gazebo_car/build/ackermann_teleop/install.log --single-version-externally-managed install_data
+[16.127s] Level 1:colcon.colcon_core.environment:checking '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_teleop/lib'
+[16.128s] Level 1:colcon.colcon_core.environment:checking '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_teleop/bin'
+[16.128s] Level 1:colcon.colcon_core.environment:checking '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_teleop/lib/pkgconfig/ackermann_teleop.pc'
+[16.133s] Level 1:colcon.colcon_core.environment:checking '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_teleop/lib/python3.10/site-packages'
+[16.134s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_teleop', 'pythonpath')
+[16.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_teleop/share/ackermann_teleop/hook/pythonpath.ps1'
+[16.147s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_teleop/share/ackermann_teleop/hook/pythonpath.dsv'
+[16.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_teleop/share/ackermann_teleop/hook/pythonpath.sh'
+[16.157s] Level 1:colcon.colcon_core.environment:checking '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_teleop/bin'
+[16.161s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ackermann_teleop)
+[16.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_teleop/share/ackermann_teleop/package.ps1'
+[16.172s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_teleop/share/ackermann_teleop/package.dsv'
+[16.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_teleop/share/ackermann_teleop/package.sh'
+[16.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_teleop/share/ackermann_teleop/package.bash'
+[16.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_teleop/share/ackermann_teleop/package.zsh'
+[16.188s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_teleop/share/colcon-core/packages/ackermann_teleop)
+[16.189s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.190s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.190s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[16.190s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.256s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.259s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.260s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.437s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.438s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/artem/vechicle/src/ros_gazebo_car/install/local_setup.ps1'
+[16.458s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/artem/vechicle/src/ros_gazebo_car/install/_local_setup_util_ps1.py'
+[16.498s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/artem/vechicle/src/ros_gazebo_car/install/setup.ps1'
+[16.509s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/artem/vechicle/src/ros_gazebo_car/install/local_setup.sh'
+[16.520s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/artem/vechicle/src/ros_gazebo_car/install/_local_setup_util_sh.py'
+[16.525s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/artem/vechicle/src/ros_gazebo_car/install/setup.sh'
+[16.552s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/artem/vechicle/src/ros_gazebo_car/install/local_setup.bash'
+[16.557s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/artem/vechicle/src/ros_gazebo_car/install/setup.bash'
+[16.562s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/artem/vechicle/src/ros_gazebo_car/install/local_setup.zsh'
+[16.564s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/artem/vechicle/src/ros_gazebo_car/install/setup.zsh'

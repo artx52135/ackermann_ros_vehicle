@@ -8,18 +8,25 @@
 /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/meshes/Material.002 Base Color.png
 /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/meshes/car.dae
 /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/urdf/exp.xml
+/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/urdf/gazebo_hokuyo.xml
 /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/urdf/med.xml
 /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/urdf/map.xacro
 /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/urdf/car.xacro
 /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/urdf/cheap.xml
+/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/urdf/test_robot.urdf
 /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/materials/textures/Material_Base_Color_002.png
 /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/materials/textures/wheel.png
 /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/materials/textures/car.png
 /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/materials/textures/Material_001_Base_Color.png
 /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/materials/textures/Material.002 Base Color.png
+/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/materials/scripts/wheel.material
 /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/materials/scripts/car.material
 /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/launch/display.launch.py
 /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/launch/gazebo.launch.py
+/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/launch/rsp.launch.py
+/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/launch/gazebo_sim.launch.py
+/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/launch/launch_sim.launch.py
+/home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/launch/test_robot.launch.py
 /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ament_index/resource_index/package_run_dependencies/ackermann_vehicle_description
 /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ament_index/resource_index/parent_prefix_path/ackermann_vehicle_description
 /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/environment/ament_prefix_path.sh
