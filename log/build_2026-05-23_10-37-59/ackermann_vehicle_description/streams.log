@@ -1,0 +1,60 @@
+[0.735s] Invoking command in '/home/artem/vechicle/src/ros_gazebo_car/build/ackermann_vehicle_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/artem/vechicle/src/ros_gazebo_car/build/ackermann_vehicle_description -- -j8 -l8
+[1.019s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.435s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[1.625s] -- Configuring done
+[1.653s] -- Generating done
+[1.655s] -- Build files have been written to: /home/artem/vechicle/src/ros_gazebo_car/build/ackermann_vehicle_description
+[1.715s] Invoked command in '/home/artem/vechicle/src/ros_gazebo_car/build/ackermann_vehicle_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/artem/vechicle/src/ros_gazebo_car/build/ackermann_vehicle_description -- -j8 -l8
+[1.783s] Invoking command in '/home/artem/vechicle/src/ros_gazebo_car/build/ackermann_vehicle_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/artem/vechicle/src/ros_gazebo_car/build/ackermann_vehicle_description
+[1.799s] -- Install configuration: ""
+[1.800s] -- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/meshes
+[1.800s] -- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/meshes/map.dae
+[1.800s] -- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/meshes/Material_Base_Color_002.png
+[1.800s] -- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/meshes/wheel.dae
+[1.802s] -- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/meshes/hokuyo.dae
+[1.802s] -- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/meshes/wheel.png
+[1.802s] -- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/meshes/car.png
+[1.803s] -- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/meshes/Material_001_Base_Color.png
+[1.803s] -- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/meshes/Material.002 Base Color.png
+[1.803s] -- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/meshes/car.dae
+[1.803s] -- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/urdf
+[1.803s] -- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/urdf/exp.xml
+[1.803s] -- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/urdf/gazebo_hokuyo.xml
+[1.804s] -- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/urdf/med.xml
+[1.804s] -- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/urdf/map.xacro
+[1.804s] -- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/urdf/car.xacro
+[1.804s] -- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/urdf/cheap.xml
+[1.804s] -- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/urdf/test_robot.urdf
+[1.808s] -- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/materials
+[1.809s] -- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/materials/textures
+[1.809s] -- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/materials/textures/Material_Base_Color_002.png
+[1.809s] -- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/materials/textures/wheel.png
+[1.810s] -- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/materials/textures/car.png
+[1.810s] -- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/materials/textures/Material_001_Base_Color.png
+[1.810s] -- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/materials/textures/Material.002 Base Color.png
+[1.810s] -- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/materials/scripts
+[1.810s] -- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/materials/scripts/wheel.material
+[1.814s] -- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/materials/scripts/car.material
+[1.819s] -- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/launch
+[1.820s] -- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/launch/display.launch.py
+[1.825s] -- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/launch/gazebo.launch.py
+[1.835s] -- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/launch/rsp.launch.py
+[1.836s] -- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/launch/gazebo_sim.launch.py
+[1.841s] -- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/launch/launch_sim.launch.py
+[1.841s] -- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/launch/test_robot.launch.py
+[1.842s] -- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ament_index/resource_index/package_run_dependencies/ackermann_vehicle_description
+[1.842s] -- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ament_index/resource_index/parent_prefix_path/ackermann_vehicle_description
+[1.843s] -- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/environment/ament_prefix_path.sh
+[1.843s] -- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/environment/ament_prefix_path.dsv
+[1.843s] -- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/environment/path.sh
+[1.844s] -- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/environment/path.dsv
+[1.844s] -- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/local_setup.bash
+[1.844s] -- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/local_setup.sh
+[1.844s] -- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/local_setup.zsh
+[1.845s] -- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/local_setup.dsv
+[1.845s] -- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/package.dsv
+[1.845s] -- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ament_index/resource_index/packages/ackermann_vehicle_description
+[1.845s] -- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/cmake/ackermann_vehicle_descriptionConfig.cmake
+[1.846s] -- Up-to-date: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/cmake/ackermann_vehicle_descriptionConfig-version.cmake
+[1.846s] -- Installing: /home/artem/vechicle/src/ros_gazebo_car/install/ackermann_vehicle_description/share/ackermann_vehicle_description/package.xml
+[1.850s] Invoked command in '/home/artem/vechicle/src/ros_gazebo_car/build/ackermann_vehicle_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/artem/vechicle/src/ros_gazebo_car/build/ackermann_vehicle_description

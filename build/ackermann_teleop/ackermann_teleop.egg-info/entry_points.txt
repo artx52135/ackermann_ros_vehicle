@@ -1,0 +1,4 @@
+[console_scripts]
+ackermann_steering = ackermann_teleop.ackermann_steering:main
+keyboard_teleop = ackermann_teleop.keyboard_teleop:main
+
